@@ -1,0 +1,25 @@
+<style>
+  .no-announcement {
+    min-height: 60vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+  }
+  .no-announcement-icon {
+    font-size: 4rem;  /* 图标 */
+    color: #9ca3af;
+    margin-bottom: 0.5rem;
+  }
+  .no-announcement-text {
+    font-size: 0.5rem;  /* 文字 */
+    color: #6b7280;
+  }
+</style>
+
+<div class="no-announcement">
+  <div class="no-announcement-box">
+    <i class="fas fa-bullhorn no-announcement-icon"></i>
+    <h2 class="no-announcement-text">目前没有公告</h2>
+  </div>
+</div>
